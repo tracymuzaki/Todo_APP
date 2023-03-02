@@ -1,0 +1,98 @@
+body {
+  background-color: #21095D;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem 1rem 4rem 1rem;
+}
+
+/* todostyles */
+.todoBg{
+  background-color: #4C2496;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 22px;
+  position: relative;
+}
+
+.todoBg div {
+  display: flex;
+  align-items: center;
+}
+
+.todoNumber{
+  color: #794ad1;
+  border: 1px solid #794ad1;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoBg .todoText {
+  flex: 1;
+}
+
+.todoBg .done .todoText{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.todoBg .iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.todoBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+}
+
+.todoBg .iconsWrap .check{
+  color: lawngreen;
+}
+
+.todoBg .iconsWrap .edit{
+  color: gold;
+}
+
+.todoBg .iconsWrap .delete{
+  color: rgb(247, 31, 31);
+}
+
+.todoBg .iconsWrap .check:hover{
+  color: yellow;
+}
+
+.todoBg .iconsWrap .edit:hover{
+  color: rgb(245, 186, 77);
+}
+
+.todoBg .iconsWrap .delete:hover{
+  color: rgb(246, 90, 90);
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+#add{
+  background-color: gold;
+  color: black;
+}
+
