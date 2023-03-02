@@ -10,7 +10,7 @@ Reactjs todolist App
 - Delete task from todo list
 
 ## Home page
-![home page](./home.png)
+![home page](./src/home.png)
 
 ## My Todo App UI
-![App](./todo.png)
+![App](./src/todo.png)
